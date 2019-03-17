@@ -1,8 +1,0 @@
-12:39:28 [main] INFO  ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - // detected
-12:39:28 [main] INFO  ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - // detected
-12:39:28 [main] INFO  ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - // detected
-12:39:28 [main] INFO  ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - // detected
-12:39:28 [main] FATAL ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - negative numbers not allowed
-12:39:28 [main] WARN  ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - number > 1000
-12:39:28 [main] WARN  ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - number > 1000
-12:39:28 [main] FATAL ch.hearc.ig.odi.stringcalculatortdd.StringCalculator - negative numbers not allowed
