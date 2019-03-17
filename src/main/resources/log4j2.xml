@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
   <Appenders>
+    <File name="logFile" fileName="log/logfile.log">
+      <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+    </File>
     <Console name="Console" target="SYSTEM_OUT">
-
       <PatternLayout pattern="%highlight{%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n}{FATAL=red, WARN=yellow, INFO=black}" disableAnsi="false"/>
     </Console>
   </Appenders>
   <Loggers>
-    <Root level="warn">
-      <AppenderRef ref="Console"/>
+    <Root level="all">
+      <AppenderRef ref="logFile"/>
     </Root>
   </Loggers>
 </Configuration>
