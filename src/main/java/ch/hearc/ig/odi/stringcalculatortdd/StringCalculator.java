@@ -53,7 +53,7 @@ public class StringCalculator {
         }
 
         if (negativeNumbers.size() > 0) {
-            logger.fatal("negative numbers not allowed")
+            logger.fatal("negative numbers not allowed");
             throw new RuntimeException("Negative not allowed: " + negativeNumbers.toString());
         }
 
